@@ -11,7 +11,7 @@ comments: false
 </div>
 
 <p style="margin-top: 10px;">
-I am <b>Audrey, Jing Zhang 張靜</b>, currently living in Hong Kong. I have a Masters degree in 'Computer Science' from the University of Hong Kong, a Bachelors degree in 'Software Engineering' and have been programming / coding / developing R&D software applications, business software applications (both for work) and fun stuff (pet projects and other stuff for learning, etc) for more than 2 years. 
+I am <b>Audrey, Jing Zhang, 張靜 (Chinese name)</b>, currently living in Hong Kong. I have a Masters degree in 'Computer Science' from the University of Hong Kong, a Bachelors degree in 'Software Engineering' and have been programming / coding / developing R&D software applications, business software applications (both for work) and fun stuff (pet projects and other stuff for learning, etc) for more than 2 years. 
 <br/><br/>
 
 I  have always been fascinated with science & technology and am curious about many creative things.
