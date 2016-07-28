@@ -46,10 +46,10 @@ profile:
   name: Audrey, Zhang Jing 張靜
   email: ""
   facebook: yourname
-  github: bchetty
-  twitter: chettyb
-  linkedin: in/prashanthchetty
-  stackoverflow: 401727/bchetty
+  github: AudreyZJ
+  #twitter: chettyb
+  linkedin: in/AudreyZhang
+  #stackoverflow: 401727/bchetty
 
 config:
   fb-enabled: false
