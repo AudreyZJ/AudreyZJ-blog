@@ -11,17 +11,14 @@ comments: false
 </div>
 
 <p style="margin-top: 10px;">
-My name is <b>Babji Prashanth, Chetty</b>. I have a Bachelors degree in 'Computer Science & Engineering' and 
-have been programming / coding / developing business software applications (for work) and fun stuff (pet projects and other stuff 
-for learning, etc) for more than 10 years. 
+I am <b>Audrey, Jing Zhang 張靜</b>, currently living in Hong Kong. I have a Masters degree in 'Computer Science' from the University of Hong Kong, a Bachelors degree in 'Software Engineering' and have been programming / coding / developing R&D software applications, business software applications (both for work) and fun stuff (pet projects and other stuff for learning, etc) for more than 2 years. 
 <br/><br/>
 
-I  have always been fascinated with science & technology and am curious about many things.
+I  have always been fascinated with science & technology and am curious about many creative things.
 I am also fascinated by different cultures and like to travel, experience it and understand the world in a better way. 
 I want to use this website to capture/archive some of my work and to share that with others.
 <br/><br/>
-When I am not working, I am either reading up different stuff related to technology, world history, etc or playing board-games/badminton 
-or binge-watching TV shows on Netflix and other streaming services.
-I have played professional 'Cricket' for a club and represented my school and university teams. 
-Lately, I haven't played any Cricket, but enjoying playing 'Badminton' regularly.
+
+When I am not working, I am either reading up different stuff related to technology, world history, painting etc or traveling or binge-watching TV shows on streaming services.
+
 </p>
