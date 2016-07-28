@@ -2,12 +2,15 @@
 layout: container-template 
 ---
 
-<div class="posts-list">
-    {% for post in paginator.posts %}
-    <article class="postPreviewBox">
-        <a href="{{ post.url | prepend: site.baseurl }}">
-            <h2 class="postTitle">{{ post.title }}</h2> 
-            {% if post.subtitle %}
+<div class="row">
+    <div class="col-md-8">
+        <div class="panel panel-default shadow1">
+            <div class="posts-list">
+                {% for post in paginator.posts %}
+                <article class="postPreviewBox">
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                    <h2 class="postTitle">{{ post.title }}</h2> 
+                {% if post.subtitle %}
                 <h3 class="postSubTitle">
                     {{ post.subtitle }}
                 </h3> 
@@ -27,8 +30,10 @@ layout: container-template
     </article>
     {% endfor %}
 </div>
+        </div>
+    </div>
 
-<div class="col-md-4">
+    <div class="col-md-4">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <span class="text-primary"><b>Recent Posts</b></span>
@@ -103,6 +108,9 @@ layout: container-template
             </div>
         </div>
     </div>
+</div>
+
+
 
 {% if paginator.total_pages > 1 %}
     <ul class="pager main-pager">
