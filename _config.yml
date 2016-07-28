@@ -10,18 +10,18 @@ gems:
 # If you are hosting it on Github for some project with name 'projectname', then the url and baseurl should look like:
 #url: "http://username.github.io/projectname"
 #baseurl: "/projectname"
-url: "https://bchetty.com"
-enforce_ssl: bchetty.com
+url: "https://audreyzj.github.io"
+enforce_ssl: audreyzj.github.io
 baseurl: ""
 
 # Title of website
-title: Babji Chetty
+title: Jing Zhang
 
 #Default keywords (used if no keywords are specified on a page basis)
 keywords: test1, test2, etc
 
 # Short description of your site
-desc: Babji, Chetty
+desc: Audrey, Zhang
 
 # --- Navigation bar options --- #
 
@@ -43,7 +43,7 @@ nav-links:
 
 # If the values are empty, they are ignored 
 profile:
-  name: Babji Chetty
+  name: Audrey, Zhang Jing 張靜
   email: ""
   facebook: yourname
   github: bchetty
@@ -61,18 +61,18 @@ config:
   feed-enabled: true
 
 # To display link in the footer section
-pretty-url: "bchetty.com"
+pretty-url: "audreyzj.github.io"
 
 # --- Misc --- #
 
 # Your Disqus profile (shortname) settings
-disqus: "bchetty"
+disqus: "audreyZhang"
 
 # Google Analytics Settings
 google_analytics: "UA-74990483-1"
 
 # Set these options as you need (For more information, check Jekyll's site)
-timezone: "Europe/Berlin"
+timezone: "Asia/Hong_Kong"
 markdown: kramdown
 highlighter: rouge
 permalink: /blog/:title
@@ -102,5 +102,5 @@ exclude:
   - README.md
   - CNAME
 
-created-by: Babji, Chetty
-creator-url: https://bchetty.com
+created-by: Jing, Zhang
+creator-url: https://audreyzj.github.io
