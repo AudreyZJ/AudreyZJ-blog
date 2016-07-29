@@ -15,7 +15,7 @@ enforce_ssl: /audreyzj.github.io
 baseurl: ""
 
 # Title of website
-title: Jing's Blog
+title: Jing's Home
 
 #Default keywords (used if no keywords are specified on a page basis)
 keywords: test1, test2, etc
