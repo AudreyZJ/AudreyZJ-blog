@@ -1,3 +1,9 @@
+$(document).ready(function(){
+  $(".container").removeClass("active").addClass("active");
+  
+  //https://idiotwu.me/css3-progress-ring/
+  $(".progress-ring").loadingRing();
+})
 ;
 (function ($) {
     $.fn.loadingRing = function () {
