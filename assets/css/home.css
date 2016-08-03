@@ -164,7 +164,7 @@ body {
   left: 50%;
   width: 140px;
   height: 144px;
-  background: url("http://idiotwu.qiniudn.com//wp-content/uploads/2014/07/player.png") 0 0 no-repeat;
+  /*background: url("http://idiotwu.qiniudn.com//wp-content/uploads/2014/07/player.png") 0 0 no-repeat;*/
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   -webkit-animation: run .6s steps(12) infinite;
