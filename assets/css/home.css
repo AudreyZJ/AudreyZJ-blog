@@ -164,7 +164,7 @@ body {
   left: 50%;
   width: 140px;
   height: 144px;
-  background: url("/assets/img/player.png") 0 0 no-repeat;
+  background: url(/assets/img/player.png) 0 0 no-repeat;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   -webkit-animation: run .6s steps(12) infinite;
