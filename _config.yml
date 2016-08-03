@@ -54,9 +54,9 @@ profile:
 config:
   fb-enabled: false
   email-enabled: false
-  github-enabled: true
+  github-enabled: false
   twitter-enabled: true
-  linkedin-enabled: true
+  linkedin-enabled: false
   stackoverflow-enabled: true
   feed-enabled: true
 
