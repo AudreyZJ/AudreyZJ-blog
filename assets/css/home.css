@@ -150,7 +150,7 @@ body {
   bottom: 0;
   left: 0;
   width: 3000px;
-  height: 30px;
+  height: 50px;
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-color: #5cb85c;
@@ -162,12 +162,11 @@ body {
   position: absolute;
   bottom: 50px;
   left: 50%;
-  width: 120px;
-  height: 124px;
-  background: url(/assets/img/player.png) 0 0 no-repeat;
+  width: 140px;
+  height: 144px;
+  background: url("http://idiotwu.qiniudn.com//wp-content/uploads/2014/07/player.png") 0 0 no-repeat;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   -webkit-animation: run .6s steps(12) infinite;
   animation: run .6s steps(12) infinite;
-}
 
