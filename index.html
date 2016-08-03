@@ -32,7 +32,7 @@ layout: home
               </span>
         </a>
       </li>
-      {% endif %} {% if site.profile.github and site.config.github-enabled %}
+     <!-- {% endif %} {% if site.profile.github and site.config.github-enabled %}
       <li>
         <a href="https://github.com/{{ site.profile.github }}" title="GitHub" target="_blank">
           <span class="fa-stack fa-lg animated slideInRight">
@@ -41,6 +41,7 @@ layout: home
               </span>
         </a>
       </li>
+      -->
       {% endif %} {% if site.profile.twitter and site.config.twitter-enabled %}
       <li>
         <a href="https://twitter.com/{{ site.profile.twitter }}" title="Twitter" target="_blank">
@@ -59,6 +60,8 @@ layout: home
               </span>
         </a>
       </li>
+      
+      <!--
       {% endif %} {% if site.profile.linkedin and site.config.linkedin-enabled %}
       <li>
         <a href="https://linkedin.com/{{ site.profile.linkedin }}" title="LinkedIn" target="_blank">
@@ -68,6 +71,7 @@ layout: home
               </span>
         </a>
       </li>
+      -->
       {% endif %} {% if site.profile.stackoverflow and site.config.stackoverflow-enabled %}
       <li>
         <a href="https://stackoverflow.com/users/{{ site.profile.stackoverflow }}" title="StackOverflow" target="_blank">
@@ -77,6 +81,8 @@ layout: home
               </span>
         </a>
       </li>
+      
+      <!--
       {% endif %} {% if site.config.feed-enabled %}
       <li>
         <a href="{{ '/feed.xml' | prepend: site.baseurl }}" title="RSS" target="_blank">
@@ -86,6 +92,7 @@ layout: home
 			  </span>
         </a>
       </li>
+      -->
       {% endif %}
     </ul>
   </div>
