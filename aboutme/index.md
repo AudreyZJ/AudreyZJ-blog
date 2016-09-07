@@ -18,6 +18,6 @@ I  have always been fascinated with science & technology and am curious about ma
 I want to use this website to capture/archive some of my ideas and thoughts, to share that with others.
 <br/><br/>
 
-When I am not working, I am either reading up different stuff and painting etc. or traveling or binge-watching TV shows on streaming services.
+When I am not working, I am either reading up different stuff, painting etc. or traveling or binge-watching TV shows on streaming services.
 
 </p>
