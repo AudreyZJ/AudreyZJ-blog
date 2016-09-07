@@ -94,18 +94,7 @@ layout: container-template
             </div>
         </div>
         
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <span class="text-primary"><b>Disclaimer</b></span>
-            </div>
-            <div class="panel-body">
-                The views expressed on this blog are my personal views and do not reflect the views of 
-                my employer or campaigns I am supporting.
-                <br/><br/>
-                All sample code is provided for illustrative purposes only. These examples have not been thoroughly tested under all conditions. The writer therefore, cannot guarantee or imply reliability, serviceability, or function of these programs.
-                
-            </div>
-        </div>
+        
     </div>
 </div>
 
