@@ -11,7 +11,7 @@ comments: false
 </div>
 
 <p style="margin-top: 10px;">
-I am <b>Zhang, Audrey J</b>, currently living in Hong Kong. I have a Masters degree in 'Computer Science' from The University of Hong Kong (Hong Kong), a Bachelors degree in 'Software Engineering' from Northwestern Polytechnical University (China) and have been programming / coding / developing R&D software applications, business management systems (both for work) and fun stuff (pet projects and other stuff for game and learning, etc) for more than 4 years. 
+I am <b>Zhang, Audrey J</b>, currently living in Hong Kong. I have a Masters degree in 'Computer Science' from The University of Hong Kong (Hong Kong), and have been programming / coding / developing R&D software applications, business management systems (both for work) and fun stuff (pet projects and other stuff for game and learning, etc) for more than 4 years. 
 <br/><br/>
 
 I  have always been fascinated with science & technology and am curious about many creative things. I am also fascinated by different cultures and like to travel, experience difference fields and understand the world in a better way. 
