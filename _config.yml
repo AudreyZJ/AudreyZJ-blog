@@ -21,7 +21,7 @@ title: Jing's Home
 keywords: test1, test2, etc
 
 # Short description of your site
-desc: Audrey, Zhang
+desc: Zhang, Audrey J
 
 # --- Navigation bar options --- #
 
@@ -43,7 +43,7 @@ nav-links:
 
 # If the values are empty, they are ignored 
 profile:
-  name: Audrey, Zhang Jing 張靜
+  name: Zhang, Audrey J
   email: ""
   facebook: yourname
   github: AudreyZJ
@@ -102,5 +102,5 @@ exclude:
   - README.md
   - CNAME
 
-created-by: Jing, Zhang
+created-by: Zhang, Audrey J
 creator-url: https://audreyzj.github.io
