@@ -14,14 +14,16 @@ url: "https://audreyzj.github.io/audreyzj.github.io"
 enforce_ssl: /audreyzj.github.io
 baseurl: ""
 
+future: true
+
 # Title of website
-title: Jing Zhang
+title: Jing's Home
 
 #Default keywords (used if no keywords are specified on a page basis)
 keywords: test1, test2, etc
 
 # Short description of your site
-desc: Audrey, Zhang
+desc: Zhang, Audrey J
 
 # --- Navigation bar options --- #
 
@@ -43,7 +45,7 @@ nav-links:
 
 # If the values are empty, they are ignored 
 profile:
-  name: Audrey, Zhang Jing 張靜
+  name: Zhang, Audrey J
   email: ""
   facebook: yourname
   github: AudreyZJ
@@ -102,5 +104,5 @@ exclude:
   - README.md
   - CNAME
 
-created-by: Jing, Zhang
+created-by: Zhang, Audrey J
 creator-url: https://audreyzj.github.io

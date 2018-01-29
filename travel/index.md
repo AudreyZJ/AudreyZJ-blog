@@ -1,13 +1,116 @@
----
-layout: container-template
-title: My Travel Stuff
-comments: true
+--- 
+layout: container-template 
 ---
 
-<div class="table-responsive">
+<div class="row">
+    <div class="col-md-8">
+        <div class="panel panel-default shadow1">
+            <div class="posts-list">
+                {% for post in paginator.posts %}
+                <article class="postPreviewBox">
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                    <h2 class="postTitle">{{ post.title }}</h2> 
+                {% if post.subtitle %}
+                <h3 class="postSubTitle">
+                    {{ post.subtitle }}
+                </h3> 
+            {% endif %}
+        </a>
 
-Under construction!
+        <p class="postMeta">
+            Posted on {{ post.date | date: "%B %-d, %Y" }}
+        </p>
 
-<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:737px;width:998px;'><div id='gmap_canvas' style='height:737px;width:998px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://mapswebsite.net/'>maps generator</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=01bedc112fc87b0909bd78667c9831cf5171320e'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:2,center:new google.maps.LatLng(12.9715987,77.59456269999998),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(12.9715987,77.59456269999998)});infowindow = new google.maps.InfoWindow({content:'<strong></strong><br><br> bangalore<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+        <div class="postPreviewContent">
+            {{ post.content | truncatewords: 50 | strip_html | xml_escape}}
+            <br/><br/>
+            <a href="{{ post.url | prepend: site.baseurl }}" class="readMoreLink">&raquo; [Read&nbsp;More]</a>
+        </div>
 
+                </article>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="text-primary"><b>Recent Posts</b></span>
+            </div>
+            <div class="panel-body">
+                <ul>
+                    {% for post in site.posts offset: 0 limit: 5  %}
+                        <li>
+                            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="text-primary"><b>Blog Categories</b></span>
+            </div>
+            <div class="panel-body">
+                <div class="panel-group" id="accordion">
+                    {% for category in site.categories %}
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" name="{{ category | first }}" 
+                                   href="#{{ category | first }}">
+                                    {{ category | first }}
+                                </a>
+                            </h4>
+                        </div>
+                        
+                        {% if forloop.index == 1 %}
+                        <div id="{{ category | first }}" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <ul>
+                                    {% for posts in category %} {% for post in posts %}
+                                    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+                                    {% endfor %} {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                        {% else %}
+                        <div id="{{ category | first }}" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul>
+                                    {% for posts in category %} {% for post in posts %}
+                                    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+                                    {% endfor %} {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                        {% endif %}                       
+                        
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
 </div>
+
+
+
+{% if paginator.total_pages > 1 %}
+    <ul class="pager main-pager">
+        {% if paginator.previous_page %}
+            <li class="previous">
+                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+            </li>
+        {% endif %} 
+        {% if paginator.next_page %}
+            <li class="next">
+                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+            </li>
+        {% endif %}
+    </ul>
+{% endif %}

@@ -11,14 +11,15 @@ comments: false
 </div>
 
 <p style="margin-top: 10px;">
-I am <b>Zhang, Audrey J</b>, currently living in Hong Kong. I have a Masters degree in 'Computer Science' from the University of Hong Kong, and have been developing R&D software applications, business software applications (both for work) and fun stuff (pet projects and other stuff for learning, etc) for more than 4 years. 
+
+I am <b>Zhang, Audrey J</b>, currently living in Hong Kong. I have a Masters degree in 'Computer Science' from The University of Hong Kong (Hong Kong), and have been programming / coding / developing R&D software applications, business management systems (both for work) and fun stuff (pet projects and other stuff for game and learning, etc) for more than 4 years. 
+
 <br/><br/>
 
-I  have always been fascinated with science & technology and am curious about many creative things.
-I am also fascinated by different cultures and like to travel, experience it and understand the world in a better way. 
-I want to use this website to capture/archive some of my work and to share that with others.
+I  have always been fascinated with science & technology and am curious about many creative things. I am also fascinated by different cultures and like to travel, experience difference fields and understand the world in a better way. 
+I want to use this website to capture/archive some of my ideas and thoughts, to share that with others.
 <br/><br/>
 
-When I am not working, I am either reading up different stuff related to technology, world history, traveling or binge-watching TV shows on streaming services.
+When I am not working, I am either reading up different stuff, traveling or binge-watching TV shows on streaming services.
 
 </p>
